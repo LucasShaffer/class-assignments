@@ -7,8 +7,8 @@ TITLE Week 4 Assignment 3 Shaffer
 INCLUDE Irvine32.inc
 
 .data
-text		DWORD ?     ;To hold text color
-background	DWORD ?     ;To hold background color
+text        DWORD ?     ;To hold text color
+background  DWORD ?     ;To hold background color
 
 .code
 main PROC
