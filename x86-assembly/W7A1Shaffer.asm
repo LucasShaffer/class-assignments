@@ -15,18 +15,18 @@ arr3 SDWORD -6412, -4658, -6415, -54, -6785, -68759, -6665, -4654, -4065
 main PROC
     
     invoke  FindLargest, ADDR arr1, LENGTHOF arr1  ;Invoke FindLargest PROC and pass ADDR for arr1 and LENGTHOF arr1
-    call	WriteInt                               ;Display the largest Int
-    call	Crlf                                   ;Write New Line
+    call    WriteInt                               ;Display the largest Int
+    call    Crlf                                   ;Write New Line
 
     invoke  FindLargest, ADDR arr2, LENGTHOF arr2  ;Invoke FindLargest PROC and pass ADDR for arr2 and LENGTHOF arr2
-    call	WriteInt                               ;Display the largest Int
-    call	Crlf                                   ;Write New Line
+    call    WriteInt                               ;Display the largest Int
+    call    Crlf                                   ;Write New Line
   
     invoke  FindLargest, ADDR arr3, LENGTHOF arr3  ;Invoke FindLargest PROC and pass ADDR for arr3 and LENGTHOF arr3
-    call	WriteInt                               ;Display the largest Int
-    call	Crlf                                   ;Write New Line
+    call    WriteInt                               ;Display the largest Int
+    call    Crlf                                   ;Write New Line
 
-    call	WaitMsg                                ;Write wait message
+    call    WaitMsg                                ;Write wait message
 
     exit						 
 main ENDP
