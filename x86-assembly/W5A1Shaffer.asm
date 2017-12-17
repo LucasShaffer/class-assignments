@@ -11,8 +11,8 @@ INCLUDE Irvine32.inc
 N = 10  ;Array length
 
 .data
-j		DWORD	 ?          ;Lower array limit
-k		DWORD	 ?          ;Upper array limit
+j       DWORD	 ?          ;Lower array limit
+k       DWORD	 ?          ;Upper array limit
 array   DWORD	 N DUP(?)   ;Empty array
 
 .code
